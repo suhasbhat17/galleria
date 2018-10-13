@@ -1,11 +1,11 @@
-package com.suhas.galleria.galleria_app.controllers;
+package com.suhas.vykhari.galleria.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.suhas.galleria_app.models.Canvas;
+import com.suhas.vykhari.galleria.models.Canvas;
 
 @RestController
 public class CanvasController {
