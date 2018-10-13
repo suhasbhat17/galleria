@@ -1,13 +1,13 @@
-package com.suhas.galleria.galleria_app.controllers;
+package com.vykhari.galleria.controllers;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class HomeController {
 
 	@RequestMapping("/")
-	public String welcome() {
-		return "Welcome to the painting gallery";
+	public String index() {
+		return "index";
 	}
 }

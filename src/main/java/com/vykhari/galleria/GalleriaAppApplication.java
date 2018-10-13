@@ -1,4 +1,4 @@
-package com.suhas.galleria.galleria_app;
+package com.vykhari.galleria;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
